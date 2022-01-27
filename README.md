@@ -1,3 +1,24 @@
+NOTE:
+
+I'm told to start with the steps from the course up to Lesson 4 (Service Workers), but the steps just flat out don't work. This course is clearly outdated.
+I'm currently unable to build the project because of errors with the sass files. They all fail with the same error:
+
+"ERROR in ./src/client/sytles/[filename].css
+Module build failed (from ./node_modules/style-loader/dist/cjs):
+TypeError: this.getOptions is not a function..."
+
+I found a question about this error on the forum. It had been answered, noting that some package version numbers had to be set at a certain value for this to work.
+I naturally tried these version numbers, but it did not solve the problem. I got more errors about how other dependencies needed to be at certain versions after making that change. 
+So I tried changing all these other package numbers to try to fix the issue, but it just kept breaking other dependencies.
+This is a hot mess. Can you help provide modern, compatible packages for getting the sass files to build?
+
+I commented on the answer question in the forum, but nobody is answering. I figured I could get quicker help by just submitting the project.
+I'm already so far over the due date that I don't have time to wait around- this is costing me a lot of money. 
+I've gone through Project 4 course a dozen times probably now and it is so broken.
+This doesn't feel like learning, it feels like poor organization and broken content. Please help, I need to get this done.
+
+***************************************************************
+
 # Project Instructions
 
 This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!

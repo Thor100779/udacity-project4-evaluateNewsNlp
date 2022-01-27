@@ -8,13 +8,21 @@ module.exports = {
     mode: 'development',
     devtool: 'source-map',
     stats: 'verbose',
+	//devServer: {
+        // Update port to 3000 for classroom
+    //    port: 3000
+    //},
     module: {
         rules: [
             {
                 test: '/\.js$/',
                 exclude: /node_modules/,
                 loader: "babel-loader"
-            }
+            },
+			{
+				test: /\.scss$/,
+				use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+			}
         ]
     },
     plugins: [
